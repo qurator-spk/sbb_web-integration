@@ -1,10 +1,14 @@
-This package currently provides:
+# SBB-web-integration
 
-* [A set of tools to perform NER+EL on the digitalized collections of the SBB.](digitized-collections.md)
-* [A set of tools for Wikidata/Wikipedia knowledge-base extraction.](knowledge-base.md) 
-* [A set of tools to perform and visualize topic-modelling on the digitalized collections of the SBB.](topic-modelling.md)
 
-# Installation:
+Visualization of named entiy recognition, entiy linking and EL-based topic modelling
+on the digitalized collections of the Berlin State Library.
+
+
+## Installation:
+
+Clone this project, the [SBB-utils](https://github.com/qurator-spk/sbb_utils),
+and the [SBB-tools](https://github.com/qurator-spk/sbb_tools).
 
 Setup virtual environment:
 ```
@@ -21,7 +25,11 @@ Upgrade pip:
 pip install -U pip
 ```
 
-Install package together with its dependencies in development mode:
+Install packages together with their dependencies in development mode:
 ```
-pip install -e ./
+pip install -e sbb_utils
+pip install -e sbb_tools
+pip install -e sbb_web-integration
 ```
+
+***
